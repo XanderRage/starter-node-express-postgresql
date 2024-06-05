@@ -1,3 +1,6 @@
+const productsService = require("./products.service");
+
+
 function read(req, res, next) {
   res.json({ data: { product_title: "some product title" } });
 }
